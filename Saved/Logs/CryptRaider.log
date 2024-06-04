@@ -5538,3 +5538,574 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.06.04-02.21.47:811][869]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_FP_Player_Auto5
 [2024.06.04-02.21.47:811][869]LogSavePackage: Moving 'H:/UnrealProjectX/CryptRaider/Saved/BP_FP_Player_Auto51B1B28F342ADF44F6719E29611632A3F.tmp' to 'H:/UnrealProjectX/CryptRaider/Saved/Autosaves/Game/BP_FP_Player_Auto5.uasset'
 [2024.06.04-02.21.47:812][869]LogFileHelpers: Auto-saving content packages took 0.064
+[2024.06.04-02.35.26:589][586]Candidate modules for hot reload:
+[2024.06.04-02.35.26:589][586]  CryptRaider
+[2024.06.04-02.35.26:593][586]Launching UnrealBuildTool... [G:/UE_5.4/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=CryptRaider,6997 CryptRaiderEditor Win64 Development -Project="H:/UnrealProjectX/CryptRaider/CryptRaider.uproject" "H:/UnrealProjectX/CryptRaider/CryptRaider.uproject"  -IgnoreJunk]
+[2024.06.04-02.35.26:598][586]Warning: Starting HotReload took  0.0s.
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=CryptRaider,6997 CryptRaiderEditor Win64 Development -Project="H:/UnrealProjectX/CryptRaider/CryptRaider.uproject" "H:/UnrealProjectX/CryptRaider/CryptRaider.uproject"  -IgnoreJunk
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Log file: C:\Users\JeffDesktop\AppData\Local\UnrealBuildTool\Log.txt
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (H:\UnrealProjectX\CryptRaider).
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Invalidating makefile for CryptRaiderEditor (working set of source files changed)
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Available x64 toolchains (1):
+[2024.06.04-02.35.31:686][603]CompilerResultsLog:  * G:\Visual Studio 2022\VC\Tools\MSVC\14.40.33807
+[2024.06.04-02.35.31:686][603]CompilerResultsLog:     (Family=14.40.33807, FamilyRank=5, Version=14.40.33811, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Visual Studio 2022 compiler version 14.40.33811 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Available x64 toolchains (1):
+[2024.06.04-02.35.31:686][603]CompilerResultsLog:  * G:\Visual Studio 2022\VC\Tools\MSVC\14.40.33807
+[2024.06.04-02.35.31:686][603]CompilerResultsLog:     (Family=14.40.33807, FamilyRank=5, Version=14.40.33811, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2024.06.04-02.35.31:686][603]CompilerResultsLog: Visual Studio 2022 compiler version 14.40.33811 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Building CryptRaiderEditor...
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Using Visual Studio 2022 14.40.33811 toolchain (G:\Visual Studio 2022\VC\Tools\MSVC\14.40.33807) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: [Adaptive Build] Excluded from CryptRaider unity file: Grabber.cpp
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2024.06.04-02.35.31:687][603]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Using Parallel executor to run 4 action(s)
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: [1/4] Compile [x64] Grabber.cpp
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-CryptRaider-6997.lib
+[2024.06.04-02.35.31:687][603]CompilerResultsLog:    Creating library H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6997.lib and object H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6997.exp
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-CryptRaider-6997.dll
+[2024.06.04-02.35.31:687][603]CompilerResultsLog:    Creating library H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6997.sup.lib and object H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6997.sup.exp
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: [4/4] WriteMetadata CryptRaiderEditor.target
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Total time in Parallel executor: 1.31 seconds
+[2024.06.04-02.35.31:687][603]CompilerResultsLog: Total execution time: 4.83 seconds
+[2024.06.04-02.35.31:687][603]LogMainFrame: MainFrame: Module compiling took 5.128 seconds
+[2024.06.04-02.35.31:702][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.06.04-02.35.31:788][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.04-02.35.31:817][603]Display: HotReload took  5.3s.
+[2024.06.04-02.35.31:817][603]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 7 functions remapped
+[2024.06.04-02.35.33:709][697]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-02.35.33:720][697]LogPlayLevel: [PlayLevel] Compiling BP_FP_Player before play...
+[2024.06.04-02.35.33:791][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.06.04-02.35.33:793][697]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (1 blueprints)
+[2024.06.04-02.35.33:793][697]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.35.33:805][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011661s)
+[2024.06.04-02.35.33:805][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeon.Dungeon to /Game/UEDPIE_0_Dungeon.Dungeon (0.011687s)
+[2024.06.04-02.35.33:834][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.06.04-02.35.33:842][697]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.04-02.35.33:842][697]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2024.06.04-02.35.33:863][697]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-02.35.33:863][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.04-02.35.33:863][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-02.35.33:863][697]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-02.35.33:863][697]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-02.35.33:863][697]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-02.35.33:865][697]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-02.35.33:881][697]LogAudioMixer: Display: Using Audio Hardware Device Speakers (BeoPlay A2)
+[2024.06.04-02.35.33:881][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-02.35.33:881][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-02.35.33:881][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-02.35.33:882][697]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.06.04-02.35.33:882][697]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.06.04-02.35.33:883][697]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.06.04-02.35.33:883][697]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.06.04-02.35.33:883][697]LogInit: FAudioDevice initialized with ID 15.
+[2024.06.04-02.35.33:883][697]LogAudio: Display: Audio Device (ID: 15) registered with world 'Dungeon'.
+[2024.06.04-02.35.33:883][697]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.06.04-02.35.33:887][697]LogLoad: Game class is 'CryptDungeonGameMode_C'
+[2024.06.04-02.35.33:895][697]LogWorld: Bringing World /Game/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.06.03-22.35.33
+[2024.06.04-02.35.33:895][697]LogWorld: Bringing up level for play took: 0.007756
+[2024.06.04-02.35.33:896][697]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.06.04-02.35.33:897][697]LogTemp: Display: Got Physics Handle: PhysicsHandle
+[2024.06.04-02.35.33:914][697]PIE: Server logged in
+[2024.06.04-02.35.33:915][697]PIE: Play in editor total start time 0.202 seconds.
+[2024.06.04-02.35.37:019][839]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.37:172][847]LogTemp: Grab Released
+[2024.06.04-02.35.37:172][847]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.37:172][847]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.38:154][897]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.38:302][905]LogTemp: Grab Released
+[2024.06.04-02.35.38:302][905]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.38:302][905]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.39:440][966]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.39:440][966]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.35.39:594][975]LogTemp: Grab Released
+[2024.06.04-02.35.39:594][975]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.39:594][975]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.41:022][ 57]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.41:023][ 57]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.35.41:173][ 66]LogTemp: Grab Released
+[2024.06.04-02.35.41:173][ 66]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.41:173][ 66]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.42:509][137]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.42:651][144]LogTemp: Grab Released
+[2024.06.04-02.35.42:651][144]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.42:651][144]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.43:072][165]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.43:227][174]LogTemp: Grab Released
+[2024.06.04-02.35.43:227][174]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.43:227][174]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.43:889][211]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.44:044][220]LogTemp: Grab Released
+[2024.06.04-02.35.44:044][220]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.44:044][220]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.44:944][271]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.45:263][289]LogTemp: Grab Released
+[2024.06.04-02.35.45:263][289]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.45:263][289]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.45:726][315]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.45:875][323]LogTemp: Grab Released
+[2024.06.04-02.35.45:875][323]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.45:875][323]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.46:092][335]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.46:092][335]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.35.46:215][342]LogTemp: Grab Released
+[2024.06.04-02.35.46:215][342]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.46:215][342]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.46:427][354]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.46:428][354]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.35.46:561][362]LogTemp: Grab Released
+[2024.06.04-02.35.46:561][362]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.46:561][362]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.47:398][410]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.47:398][410]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.35.47:550][419]LogTemp: Grab Released
+[2024.06.04-02.35.47:550][419]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.47:550][419]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.48:359][465]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.48:529][475]LogTemp: Grab Released
+[2024.06.04-02.35.48:529][475]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.48:529][475]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.49:111][509]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.49:277][519]LogTemp: Grab Released
+[2024.06.04-02.35.49:277][519]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.49:277][519]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.49:831][551]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.35.49:831][551]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.35.49:988][560]LogTemp: Grab Released
+[2024.06.04-02.35.49:988][560]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.35.49:988][560]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.35.52:809][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.35.52:809][722]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.35.52:809][722]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-02.35.52:811][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.35.52:811][722]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.04-02.35.52:811][722]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.04-02.35.52:814][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-02.35.52:818][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.35.52:826][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.35.52:826][722]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.06.04-02.35.52:826][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.06.04-02.35.52:827][722]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.06.04-02.35.52:834][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.06.04-02.35.52:912][723]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.06.04-02.36.25:805][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.06.04-02.36.25:810][852]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Dungeon' took 0.016
+[2024.06.04-02.36.25:810][852]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_FP_Player] ([2] browsable assets)...
+[2024.06.04-02.36.25:810][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_FP_Player]
+[2024.06.04-02.36.25:810][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_FP_Player" FILE="H:/UnrealProjectX/CryptRaider/Saved/Autosaves/Game/BP_FP_Player_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2024.06.04-02.36.25:815][852]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_FP_Player_Auto6
+[2024.06.04-02.36.25:815][852]LogSavePackage: Moving 'H:/UnrealProjectX/CryptRaider/Saved/BP_FP_Player_Auto671C042014F842B047B85BB8ECDB02C77.tmp' to 'H:/UnrealProjectX/CryptRaider/Saved/Autosaves/Game/BP_FP_Player_Auto6.uasset'
+[2024.06.04-02.36.25:815][852]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.06.04-02.37.12:723][268]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-02.37.12:733][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-02.37.12:733][268]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.37.12:744][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010983s)
+[2024.06.04-02.37.12:745][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeon.Dungeon to /Game/UEDPIE_0_Dungeon.Dungeon (0.011006s)
+[2024.06.04-02.37.12:756][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.06.04-02.37.12:759][268]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.04-02.37.12:759][268]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2024.06.04-02.37.12:776][268]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-02.37.12:776][268]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.04-02.37.12:776][268]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-02.37.12:776][268]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-02.37.12:776][268]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-02.37.12:776][268]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-02.37.12:778][268]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-02.37.12:792][268]LogAudioMixer: Display: Using Audio Hardware Device Speakers (BeoPlay A2)
+[2024.06.04-02.37.12:792][268]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-02.37.12:792][268]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-02.37.12:792][268]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-02.37.12:792][268]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.06.04-02.37.12:792][268]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.06.04-02.37.12:794][268]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.06.04-02.37.12:794][268]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.06.04-02.37.12:794][268]LogInit: FAudioDevice initialized with ID 16.
+[2024.06.04-02.37.12:794][268]LogAudio: Display: Audio Device (ID: 16) registered with world 'Dungeon'.
+[2024.06.04-02.37.12:794][268]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.06.04-02.37.12:796][268]LogLoad: Game class is 'CryptDungeonGameMode_C'
+[2024.06.04-02.37.12:803][268]LogWorld: Bringing World /Game/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.06.03-22.37.12
+[2024.06.04-02.37.12:803][268]LogWorld: Bringing up level for play took: 0.006642
+[2024.06.04-02.37.12:804][268]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.06.04-02.37.12:806][268]LogTemp: Display: Got Physics Handle: PhysicsHandle
+[2024.06.04-02.37.12:822][268]PIE: Server logged in
+[2024.06.04-02.37.12:822][268]PIE: Play in editor total start time 0.095 seconds.
+[2024.06.04-02.37.16:025][415]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.16:201][425]LogTemp: Grab Released
+[2024.06.04-02.37.16:202][425]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.16:202][425]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.17:253][482]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.17:405][491]LogTemp: Grab Released
+[2024.06.04-02.37.17:405][491]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.17:405][491]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.18:451][552]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.18:451][552]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.37.18:584][560]LogTemp: Grab Released
+[2024.06.04-02.37.18:584][560]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.18:584][560]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.20:114][650]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.20:115][650]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.37.20:266][659]LogTemp: Grab Released
+[2024.06.04-02.37.20:266][659]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.20:266][659]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.20:872][695]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.20:872][695]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.37.21:058][706]LogTemp: Grab Released
+[2024.06.04-02.37.21:058][706]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.21:058][706]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.22:840][808]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.22:840][808]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.37.22:975][816]LogTemp: Grab Released
+[2024.06.04-02.37.22:975][816]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.22:975][816]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.23:851][865]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.23:996][873]LogTemp: Grab Released
+[2024.06.04-02.37.23:996][873]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.23:996][873]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.25:081][933]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.37.25:471][955]LogTemp: Grab Released
+[2024.06.04-02.37.25:471][955]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.37.25:472][955]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.37.28:219][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.37.28:219][108]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.37.28:219][108]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-02.37.28:220][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.37.28:220][108]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.04-02.37.28:220][108]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.04-02.37.28:222][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-02.37.28:227][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.37.28:238][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.37.28:238][108]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.06.04-02.37.28:238][108]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.06.04-02.37.28:240][108]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.06.04-02.37.28:247][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.06.04-02.37.28:328][109]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.06.04-02.38.17:677][586]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.06.04-02.38.18:311][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-02.38.18:345][621]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.38.18:356][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012006s)
+[2024.06.04-02.38.18:356][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeon.Dungeon to /Game/UEDPIE_0_Dungeon.Dungeon (0.012038s)
+[2024.06.04-02.38.18:369][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.06.04-02.38.18:374][621]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.04-02.38.18:374][621]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2024.06.04-02.38.18:394][621]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-02.38.18:394][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.04-02.38.18:394][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-02.38.18:394][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-02.38.18:394][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-02.38.18:394][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-02.38.18:395][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-02.38.18:410][621]LogAudioMixer: Display: Using Audio Hardware Device Speakers (BeoPlay A2)
+[2024.06.04-02.38.18:410][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-02.38.18:410][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-02.38.18:410][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-02.38.18:411][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.06.04-02.38.18:411][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.06.04-02.38.18:412][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.06.04-02.38.18:412][621]LogInit: FAudioDevice initialized with ID 17.
+[2024.06.04-02.38.18:412][621]LogAudio: Display: Audio Device (ID: 17) registered with world 'Dungeon'.
+[2024.06.04-02.38.18:412][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.06.04-02.38.18:412][621]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.06.04-02.38.18:414][621]LogLoad: Game class is 'CryptDungeonGameMode_C'
+[2024.06.04-02.38.18:420][621]LogWorld: Bringing World /Game/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.06.03-22.38.18
+[2024.06.04-02.38.18:420][621]LogWorld: Bringing up level for play took: 0.006537
+[2024.06.04-02.38.18:422][621]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.06.04-02.38.18:423][621]LogTemp: Display: Got Physics Handle: PhysicsHandle
+[2024.06.04-02.38.18:439][621]PIE: Server logged in
+[2024.06.04-02.38.18:440][621]PIE: Play in editor total start time 0.134 seconds.
+[2024.06.04-02.38.22:342][857]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.22:342][857]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.22:473][865]LogTemp: Grab Released
+[2024.06.04-02.38.22:473][865]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.22:473][865]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.23:238][911]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.23:409][921]LogTemp: Grab Released
+[2024.06.04-02.38.23:409][921]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.23:409][921]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.23:943][951]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.24:148][962]LogTemp: Grab Released
+[2024.06.04-02.38.24:148][962]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.24:148][962]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.31:005][116]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.31:137][124]LogTemp: Grab Released
+[2024.06.04-02.38.31:137][124]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.31:138][124]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.32:918][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.38.32:918][230]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.38.32:918][230]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-02.38.32:921][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.38.32:921][230]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.04-02.38.32:921][230]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.04-02.38.32:924][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-02.38.32:927][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.38.32:940][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.38.32:941][230]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.06.04-02.38.32:941][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.06.04-02.38.32:942][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.06.04-02.38.32:948][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.06.04-02.38.33:029][231]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.06.04-02.38.37:068][568]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-02.38.37:078][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-02.38.37:105][568]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.38.37:117][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011730s)
+[2024.06.04-02.38.37:117][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeon.Dungeon to /Game/UEDPIE_0_Dungeon.Dungeon (0.011762s)
+[2024.06.04-02.38.37:129][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.06.04-02.38.37:134][568]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.04-02.38.37:135][568]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2024.06.04-02.38.37:151][568]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-02.38.37:151][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.04-02.38.37:151][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-02.38.37:151][568]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-02.38.37:151][568]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-02.38.37:151][568]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-02.38.37:152][568]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-02.38.37:168][568]LogAudioMixer: Display: Using Audio Hardware Device Speakers (BeoPlay A2)
+[2024.06.04-02.38.37:168][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-02.38.37:168][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-02.38.37:168][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-02.38.37:168][568]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.06.04-02.38.37:168][568]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.06.04-02.38.37:170][568]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.06.04-02.38.37:170][568]LogInit: FAudioDevice initialized with ID 18.
+[2024.06.04-02.38.37:170][568]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.06.04-02.38.37:170][568]LogAudio: Display: Audio Device (ID: 18) registered with world 'Dungeon'.
+[2024.06.04-02.38.37:170][568]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.06.04-02.38.37:172][568]LogLoad: Game class is 'CryptDungeonGameMode_C'
+[2024.06.04-02.38.37:179][568]LogWorld: Bringing World /Game/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.06.03-22.38.37
+[2024.06.04-02.38.37:179][568]LogWorld: Bringing up level for play took: 0.006744
+[2024.06.04-02.38.37:180][568]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.06.04-02.38.37:182][568]LogTemp: Display: Got Physics Handle: PhysicsHandle
+[2024.06.04-02.38.37:198][568]PIE: Server logged in
+[2024.06.04-02.38.37:198][568]PIE: Play in editor total start time 0.127 seconds.
+[2024.06.04-02.38.39:560][686]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.39:710][693]LogTemp: Grab Released
+[2024.06.04-02.38.39:710][693]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.39:710][693]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.40:161][713]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.40:328][720]LogTemp: Grab Released
+[2024.06.04-02.38.40:328][720]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.40:328][720]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.42:623][838]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.42:623][838]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.42:784][848]LogTemp: Grab Released
+[2024.06.04-02.38.42:784][848]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.42:784][848]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.48:341][191]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.49:144][240]LogTemp: Grab Released
+[2024.06.04-02.38.49:145][240]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.49:145][240]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.50:718][336]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.50:718][336]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.50:864][345]LogTemp: Grab Released
+[2024.06.04-02.38.50:864][345]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.50:864][345]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.53:216][490]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.53:216][490]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.53:361][499]LogTemp: Grab Released
+[2024.06.04-02.38.53:361][499]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.53:361][499]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.54:361][560]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.54:362][560]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.54:524][570]LogTemp: Grab Released
+[2024.06.04-02.38.54:524][570]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.54:524][570]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.55:120][606]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.55:120][606]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.55:251][614]LogTemp: Grab Released
+[2024.06.04-02.38.55:251][614]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.55:251][614]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.55:909][654]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.55:909][654]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.56:040][662]LogTemp: Grab Released
+[2024.06.04-02.38.56:040][662]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.56:040][662]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.56:836][710]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.56:838][710]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.56:985][719]LogTemp: Grab Released
+[2024.06.04-02.38.56:985][719]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.56:985][719]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.58:310][799]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.58:310][799]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.58:440][807]LogTemp: Grab Released
+[2024.06.04-02.38.58:440][807]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.58:440][807]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.38.59:789][889]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.38.59:789][889]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.38.59:919][897]LogTemp: Grab Released
+[2024.06.04-02.38.59:919][897]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.38.59:919][897]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.39.01:139][972]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.39.01:139][972]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.39.01:270][980]LogTemp: Grab Released
+[2024.06.04-02.39.01:270][980]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.39.01:270][980]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.39.02:861][ 78]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.39.02:862][ 78]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.39.03:007][ 87]LogTemp: Grab Released
+[2024.06.04-02.39.03:007][ 87]LogBlueprintUserMessages: Grab Released
+[2024.06.04-02.39.03:007][ 87]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.39.05:058][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.39.05:058][211]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.39.05:058][211]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-02.39.05:059][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.39.05:059][211]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.04-02.39.05:059][211]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.04-02.39.05:063][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-02.39.05:067][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.39.05:077][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.39.05:078][211]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.06.04-02.39.05:079][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.06.04-02.39.05:080][211]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.06.04-02.39.05:086][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.06.04-02.39.05:165][212]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.06.04-02.40.20:195][571]Candidate modules for hot reload:
+[2024.06.04-02.40.20:195][571]  CryptRaider
+[2024.06.04-02.40.20:199][571]Launching UnrealBuildTool... [G:/UE_5.4/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=CryptRaider,6680 CryptRaiderEditor Win64 Development -Project="H:/UnrealProjectX/CryptRaider/CryptRaider.uproject" "H:/UnrealProjectX/CryptRaider/CryptRaider.uproject"  -IgnoreJunk]
+[2024.06.04-02.40.20:204][571]Warning: Starting HotReload took  0.0s.
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=CryptRaider,6680 CryptRaiderEditor Win64 Development -Project="H:/UnrealProjectX/CryptRaider/CryptRaider.uproject" "H:/UnrealProjectX/CryptRaider/CryptRaider.uproject"  -IgnoreJunk
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Log file: C:\Users\JeffDesktop\AppData\Local\UnrealBuildTool\Log.txt
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (H:\UnrealProjectX\CryptRaider).
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Building CryptRaiderEditor...
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Using Visual Studio 2022 14.40.33811 toolchain (G:\Visual Studio 2022\VC\Tools\MSVC\14.40.33807) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Warning: Visual Studio 2022 compiler is not a preferred version
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: [Adaptive Build] Excluded from CryptRaider unity file: Grabber.cpp
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2024.06.04-02.40.22:508][578]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Using Parallel executor to run 4 action(s)
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: [1/4] Compile [x64] Grabber.cpp
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-CryptRaider-6680.lib
+[2024.06.04-02.40.22:508][578]CompilerResultsLog:    Creating library H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6680.lib and object H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6680.exp
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-CryptRaider-6680.dll
+[2024.06.04-02.40.22:508][578]CompilerResultsLog:    Creating library H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6680.sup.lib and object H:\UnrealProjectX\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider-6680.sup.exp
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: [4/4] WriteMetadata CryptRaiderEditor.target
+[2024.06.04-02.40.22:508][578]CompilerResultsLog: Total time in Parallel executor: 1.36 seconds
+[2024.06.04-02.40.22:509][578]CompilerResultsLog: Total execution time: 1.90 seconds
+[2024.06.04-02.40.22:509][578]LogMainFrame: MainFrame: Module compiling took 2.333 seconds
+[2024.06.04-02.40.22:520][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.06.04-02.40.22:603][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.06.04-02.40.22:630][578]Display: HotReload took  2.5s.
+[2024.06.04-02.40.22:630][578]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 7 functions remapped
+[2024.06.04-02.40.26:836][876]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-02.40.26:846][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-02.40.26:882][876]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.40.26:893][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012226s)
+[2024.06.04-02.40.26:893][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeon.Dungeon to /Game/UEDPIE_0_Dungeon.Dungeon (0.012258s)
+[2024.06.04-02.40.26:947][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.04-02.40.26:952][876]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.06.04-02.40.26:953][876]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2024.06.04-02.40.26:968][876]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-02.40.26:968][876]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.04-02.40.26:968][876]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-02.40.26:968][876]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-02.40.26:968][876]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-02.40.26:968][876]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-02.40.26:969][876]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-02.40.26:985][876]LogAudioMixer: Display: Using Audio Hardware Device Speakers (BeoPlay A2)
+[2024.06.04-02.40.26:985][876]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-02.40.26:985][876]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-02.40.26:985][876]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-02.40.26:985][876]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.06.04-02.40.26:985][876]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.06.04-02.40.26:987][876]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.06.04-02.40.26:987][876]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.06.04-02.40.26:987][876]LogInit: FAudioDevice initialized with ID 19.
+[2024.06.04-02.40.26:987][876]LogAudio: Display: Audio Device (ID: 19) registered with world 'Dungeon'.
+[2024.06.04-02.40.26:987][876]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.06.04-02.40.26:989][876]LogLoad: Game class is 'CryptDungeonGameMode_C'
+[2024.06.04-02.40.26:996][876]LogWorld: Bringing World /Game/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2024.06.03-22.40.26
+[2024.06.04-02.40.26:996][876]LogWorld: Bringing up level for play took: 0.007090
+[2024.06.04-02.40.26:997][876]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.06.04-02.40.26:999][876]LogTemp: Display: Got Physics Handle: PhysicsHandle
+[2024.06.04-02.40.27:015][876]PIE: Server logged in
+[2024.06.04-02.40.27:016][876]PIE: Play in editor total start time 0.175 seconds.
+[2024.06.04-02.40.31:168][ 78]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.31:168][ 78]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.40.31:317][ 87]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.33:531][219]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.33:531][219]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.40.33:695][229]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.34:797][295]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.34:797][295]LogTemp: No Actor hit
+[2024.06.04-02.40.34:945][304]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.35:297][325]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.35:297][325]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.40.35:462][335]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.35:945][364]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.35:945][364]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.40.36:126][375]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.36:792][415]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.36:792][415]LogTemp: SM_Gargoyle_Statue has been hit by player
+[2024.06.04-02.40.37:494][457]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.37:629][465]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.37:629][465]LogTemp: No Actor hit
+[2024.06.04-02.40.37:847][478]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.38:323][506]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.38:323][506]LogTemp: No Actor hit
+[2024.06.04-02.40.38:483][515]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.39:068][547]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.39:068][547]LogTemp: No Actor hit
+[2024.06.04-02.40.39:258][557]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.39:935][593]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.39:935][593]LogTemp: No Actor hit
+[2024.06.04-02.40.40:046][599]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.40:487][623]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.40:487][623]LogTemp: No Actor hit
+[2024.06.04-02.40.40:616][630]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.41:077][655]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.41:077][655]LogTemp: No Actor hit
+[2024.06.04-02.40.41:238][665]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.41:560][682]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.41:560][682]LogTemp: No Actor hit
+[2024.06.04-02.40.41:735][690]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.42:260][714]LogBlueprintUserMessages: [Dungeon] E Button Pressed
+[2024.06.04-02.40.42:260][714]LogTemp: No Actor hit
+[2024.06.04-02.40.42:407][721]LogBlueprintUserMessages: [Dungeon] E Button Released
+[2024.06.04-02.40.43:015][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.40.43:015][748]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeon
+[2024.06.04-02.40.43:015][748]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-02.40.43:017][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.40.43:017][748]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.06.04-02.40.43:017][748]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.06.04-02.40.43:019][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-02.40.43:025][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-02.40.43:034][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-02.40.43:043][748]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.06.04-02.40.43:043][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.06.04-02.40.43:044][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.06.04-02.40.43:047][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-02.40.43:063][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.06.04-02.40.43:149][749]LogPlayLevel: Display: Destroying online subsystem :Context_22
